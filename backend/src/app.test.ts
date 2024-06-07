@@ -1,7 +1,7 @@
 import { Request, Response } from 'express';
 import request from 'supertest';
 import { describe, it, expect, vi } from 'vitest';
-import { app } from './app.js';
+import app from './app.js';
 import TApiResponse from './models/api-response.js';
 import TDataResponse from './models/data-response.js';
 import TUser from './models/user.js';

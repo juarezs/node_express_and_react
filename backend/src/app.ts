@@ -23,4 +23,4 @@ app.listen(port, () => {
   console.log(`sp-backend listening on port ${port}`);
 });
 
-export { app };
+export default app;
