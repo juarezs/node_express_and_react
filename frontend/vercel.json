@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/api/:match*",
-      "destination": "https://shawandpartners-three.vercel.app/api/:match*"
+      "destination": "https://...-three.vercel.app/api/:match*"
     }
   ]
 }
