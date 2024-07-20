@@ -19,7 +19,6 @@ describe('UseCard', () => {
     const { getByTestId, getByText } = render(<UserCard data-testid={testId} user={user} />)
 
     expect(getByTestId(testId)).toBeInTheDocument();
-    expect(getByText('Name')).toBeInTheDocument();
     expect(getByText(user.name)).toBeInTheDocument();
     expect(getByText('City')).toBeInTheDocument();
     expect(getByText(user.city)).toBeInTheDocument();

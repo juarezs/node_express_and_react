@@ -6,8 +6,7 @@ export default function UserCard({user, ...props} : {user: TUser}) {
     <Card {...props} className="bg-slate-100 shadow">
       <CardContent className="grid justify-start p-4">
           <div className="block text-start mb-2">
-            <div className="font-medium">Name</div>
-            <div className="font-light">{user.name}</div>
+            <div className="font-black">{user.name}</div>
           </div>
           <div className="block text-start my-2">
             <div className="font-medium">City</div>
