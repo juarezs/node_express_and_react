@@ -7,6 +7,7 @@ import multer from 'multer';
 import TUser from '../../models/user.js';
 import path from 'path';
 import db from '../../lib/db.js';
+import { logWarn } from '../../lib/logger.js';
 
 // to read info from .env file
 dotenv.config();
@@ -57,7 +58,7 @@ export const postFiles = async (req: Request, res: Response<TApiResponse>, next:
         // Delete the temporary file
         fs.unlink(filePath, (e) => {
           if (e) {
-            console.warn('Error when trying to delete the temporary file: ', filePath, e);
+            logWarn('Error when trying to delete the temporary file: ', filePath, e);
           }
         });
 

@@ -1,7 +1,7 @@
 {
   "name": "sp-backend",
   "version": "1.0.0",
-  "description": "Backend service for Shaw and Partners Full-Stack Take Home Test",
+  "description": "Backend service",
   "main": "app.ts",
   "type": "module",
   "scripts": {
@@ -13,12 +13,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/juarezs/shawandpartners.git"
+    "url": "git+https://github.com/juarezs/node_express_and_react.git"
   },
   "author": "Juarez Schulz",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/juarezs/shawandpartners/issues"
+    "url": "https://github.com/juarezs/node_express_and_react/issues"
   },
   "dependencies": {
     "@types/express": "^4.17.21",
@@ -32,7 +32,8 @@
     "sqlite": "^5.1.1",
     "sqlite3": "^5.1.7",
     "ts-node": "^10.9.2",
-    "typescript": "^5.4.5"
+    "typescript": "^5.4.5",
+    "winston": "^3.13.1"
   },
   "devDependencies": {
     "@types/supertest": "^6.0.2",
